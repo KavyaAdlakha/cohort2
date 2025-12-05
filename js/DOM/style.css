@@ -1,0 +1,400 @@
+@font-face {
+    font-family: horror;
+    src: url(Storm\ Gust.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+
+
+/* h1{
+  font-size: 100px;
+}
+
+button{
+  background-color: red;
+  color: white;
+  height: 50px;
+  width: 100px;
+} */
+
+/* #box{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(207, 115, 115);
+  border: 5px solid white;
+  border-radius: 15px;
+} */
+
+/* class 3-------------------------------------------- */
+
+/* body{
+  overflow: hidden;
+}
+
+main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+button{
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: lightseagreen;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+}
+
+h1{
+  white-space: nowrap;
+}
+
+button:active{
+  scale: 0.95;
+} */
+
+/* class 4--------------------------------------------------------- */
+
+/* main{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button{
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: lightseagreen;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+}
+
+button:active{
+  scale: 0.95;
+}  */
+
+/* class 5--------------------------------------------------- */
+/* main{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.card{
+  width: 200px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card div{
+  position: relative;
+  overflow: hidden;
+}
+
+.card img{
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.card h2{
+  font-size: 20px;
+  text-align: center;
+}
+.card i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  opacity: 0;
+  background-image: url('https://img.freepik.com/free-vector/instagram-background-gradient-colors_23-2147819864.jpg?semt=ais_hybrid&w=740&q=80');
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transform: translate(-50%, -50%) scale(0) rotate(-60deg);
+  transition: all cubic-bezier(.65,1,.77,1.44) 0.3s;
+} */
+
+/* class 6--------------------------------------------------- */
+
+/* main{
+  height: 100%;
+  width: 100%;
+  background-color: black; 
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 280px;
+  background-color: white;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.card img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.card h3{
+  font-size: 26px;
+  white-space: nowrap;
+}
+
+.card h4{
+  font-size: 18px;
+  margin-top: 10px;
+  color: crimson;
+  margin-bottom: 10px;
+}
+
+p{
+  font-size: 14px;
+} */
+
+/* class 7--------------------------------------------------- */
+
+ /* main{
+  height: 100%;
+  width: 100%;
+  background-color: black; 
+  cursor: none;
+} */
+
+/* .box{
+  height: 400px;
+  width: 400px;
+  background-color: lightblue;
+} */
+/* 
+#cursor{
+  height: 60px;
+  position: fixed;
+  transform: translate(-50%,-50%);
+} */
+
+/* class 8--------------------------------------------------- */
+
+/* body{
+  background-color: black;
+  padding: 30px;
+}
+
+.elem{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+button{
+  background-color: royalblue;
+  color: #fff;
+  padding: 10px 20px;
+} */
+
+/* class 9--------------------------------------------------- */
+
+main{
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right bottom,rgb(26, 25, 25),rgb(55, 54, 54), black); 
+  padding: 20px;
+  color: #fff;
+}
+
+section{
+  height: 100%;
+  width: 350px;
+  background-color: black;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.all-reels{
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+.all-reels::-webkit-scrollbar{
+  display: none;
+}
+
+.reel{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.reel video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.reel .bottom{
+  padding: 30px 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.748));
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.bottom .user{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.bottom .user img{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.bottom .user h4{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.bottom .user button{
+  background-color: transparent;
+  padding: 2px 4px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 2px;
+  color: #fff;
+  border: 1px solid white;
+}
+
+.bottom>h3{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.right{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+  width: 40px;
+  position: absolute;
+  right: 0;
+  /* height: 100%; */
+  /* transform: translate(100%); */
+  bottom: 10%;
+  /* background: linear-gradient(to right,transparent,black); */
+}
+
+.right h4{
+  cursor: pointer;
+}
+
+.right i{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.right h6{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.right>div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  cursor: pointer;
+}
+
+.love{
+  color: red;
+}
+
+.right>div h4{
+  pointer-events: none;
+}
+
+.right>div h6{
+  pointer-events: none;
+}
+
+.mute{
+  background-color: #333;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.mute i{
+  font-size: 20px;
+  pointer-events: none;
+}
+
+.mute:active{
+  scale: 0.95;
+}
