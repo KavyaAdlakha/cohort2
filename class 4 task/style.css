@@ -1,0 +1,49 @@
+@font-face {
+    font-family: simbi;
+    src: url(./Simbiot.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 170px;
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+    font-family: simbi;
+    font-weight: 100;
+}
+
+button{
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px 20px;
+    background: transparent;
+    color: rgb(33, 33, 33);
+    background-color: #E6E6F2;
+    border: none;
+    border-radius: 8px;
+    font-family: simbi;
+}
+
+button:hover{
+    background-color: #c8c8d3;
+    scale: 1.05;
+}
