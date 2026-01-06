@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* 1st template------------------>>>>>> */
+
+/* main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 70px 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+
+    grid-template-areas: "header header header"
+                          "section section section"
+                          " div1 div2 div3";
+}
+
+header{
+    background-color: crimson;
+    grid-area: header; 
+}
+
+section{
+    background-color: khaki;
+    grid-area: section;
+}
+
+#div1{
+    background-color: lightblue;
+    grid-area: div1;
+}
+
+#div2{
+    background-color: rgb(101, 176, 201);
+    grid-area: div2;
+}
+
+#div3{
+    background-color: rgb(38, 130, 160);
+    grid-area: div3;
+} */
+
+
+
+
+/* 2nd template ----------------------->>>> */
+
+/* main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 80px 200px 1fr;
+    padding: 20px;
+    grid-gap: 15px;
+
+    grid-template-areas: "header header"
+                          "aside section"
+                          "figure figure";
+
+}
+
+header{
+    background-color: crimson;
+    grid-area: header; 
+}
+
+aside{
+    background-color: brown;
+    grid-area: aside;
+}
+
+section{
+    background-color: khaki;
+    grid-area: section;
+}
+
+figure{
+    background-color: rgb(223, 176, 114);
+    grid-area: figure;
+} */
+
+
+/* 3rd template ----------------------->>>> */
+
+
+/* main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr 0.5fr 0.5fr;
+    padding: 20px;
+    grid-gap: 15px;
+
+    grid-template-areas: "header header header"
+                          "section section section"
+                          "div1 div2 div4"
+                          "div1 div3 div4";
+
+}
+
+header{
+    background-color: crimson;
+    grid-area: header; 
+}
+
+section{
+    background-color: khaki;
+    grid-area: section;
+}
+
+#div1{
+    background-color: lightblue;
+    grid-area: div1;
+}
+
+#div2{
+    background-color: rgb(101, 176, 201);
+    grid-area: div2;
+}
+
+#div3{
+    background-color: rgb(38, 130, 160);
+    grid-area: div3;
+}
+
+#div4{
+    background-color: blue;
+    grid-area: div4;
+} */
+
+
+/* 4th template binto grid ----------------------->>>> */
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    display: grid;
+    grid-template-columns: 1fr 350px 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 20px;
+    grid-gap: 15px;
+
+    grid-template-areas: "div1 div2 div3"
+                          "div1 div4 div6"
+                          "div5 div5 div6";
+
+}
+
+#div1{
+    background-color: lightblue;
+    grid-area: div1;
+}
+
+#div2{
+    background-color: rgb(101, 176, 201);
+    grid-area: div2;
+}
+
+#div3{
+    background-color: rgb(38, 130, 160);
+    grid-area: div3;
+}
+
+#div4{
+    background-color: blue;
+    grid-area: div4;
+}
+
+#div5{
+    background-color: rgb(72, 72, 113);
+    grid-area: div5;
+}
+
+#div6{
+    background-color: rgb(100, 100, 126);
+    grid-area: div6;
+}
