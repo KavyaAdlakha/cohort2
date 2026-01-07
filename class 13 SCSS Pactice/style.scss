@@ -1,0 +1,58 @@
+@import "header";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body::-webkit-scrollbar{
+    display: none
+}
+
+header{
+    @include header-style(); 
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding: 0 10px;
+
+    section{
+        height: 100%;
+        flex-grow: 1;
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        transition: all 0.7s linear;
+    }
+
+    section:hover{
+        flex-grow: 1.5;
+        transition: all 0.7s linear;
+    }
+
+    section:nth-child(1){
+        background-image: url(https://i.pinimg.com/originals/12/53/36/125336f2df1d89c629564246f931d7d9.jpg);
+    }
+    section:nth-child(2){
+        background-image: url(https://i.pinimg.com/originals/b1/42/2f/b1422ff8b87ab9f34cddf65add782afb.jpg);
+    }
+    section:nth-child(3){
+        background-image: url(https://i.pinimg.com/originals/7c/1d/ec/7c1dec786753e4d3d77af5781ffdb6d7.jpg);
+    }
+    section:nth-child(4){
+        background-image: url(https://i.pinimg.com/originals/26/b6/83/26b683814cfd7f67386ca75b391265ab.jpg);
+    }
+    section:nth-child(5){
+        background-image: url(https://i.pinimg.com/originals/8d/4d/23/8d4d238fc7a42a95c91aeb91d8f3142b.jpg);
+    }
+}

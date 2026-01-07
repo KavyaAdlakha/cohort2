@@ -1,0 +1,15 @@
+@font-face {
+    font-family: tbsm;
+    src: url(./Darkmode\ demo-Regular.ttf);
+}
+
+@mixin header-style(){
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    font-family: tbsm;
+    letter-spacing: 15px;
+}
