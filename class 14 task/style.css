@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30% 1fr 1fr 1fr;
+  grid-template-rows: 60% 1fr;
+  gap: 15px;
+  padding: 15px;
+  grid-template-areas: "div1 div2 div2 div2" "div1 div3 div4 div5";
+}
+main .div {
+  background-color: crimson;
+  border-radius: 10px;
+  overflow: hidden;
+}
+main .div img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main #div1 {
+  grid-area: div1;
+}
+main #div2 {
+  grid-area: div2;
+}
+main #div3 {
+  grid-area: div3;
+}
+main #div4 {
+  grid-area: div4;
+}
+main #div5 {
+  grid-area: div5;
+}/*# sourceMappingURL=style.css.map */

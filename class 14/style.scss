@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+html{
+    font-size: 40px;
+}
+
+// .red{
+//     height: 500px;
+//     width: 500px;
+//     background-color: crimson;
+// }
+
+// .red{
+//     height: 50vh;
+//     width: 50vw;
+//     background-color: crimson;
+// }
+
+// h1{
+//     font-size: 1rem;
+// }
+
+// section{
+//     font-size: 20px;
+
+//     h1{
+//         font-size: 4em;
+//     }
+// }
+
+
+// .red{
+//     height: 500px;
+//     width: 400px;
+//     background-color: crimson;
+
+//     .blue{
+//         height: 50%;
+//         width: 50%;
+//         background-color: lightblue;
+//     }
+// }
+
+
+html{
+    font-size: clamp(14px, 1vw, 18px);
+
+    h1{
+        font-size: 10rem;
+    }
+}
