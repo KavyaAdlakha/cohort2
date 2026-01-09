@@ -1,4 +1,8 @@
 @import "section1";
+@import "section2";
+@import "section3";
+@import "section5";
+
 
 *{
     margin: 0;
@@ -32,9 +36,27 @@ main{
     @include flex-column(0rem);
     align-items: center;
     
-    section{
+    section.view1{
        max-width: 1900px;
        @include section1-mobile-style(); 
        @include section1-desktop-style();
+    }
+
+    section.view2{
+        max-width: 1900px;
+        @include section2-mobile-style();
+        @include section2-desktop-style();
+    }
+
+    section.view3{
+        max-width: 1900px;
+        @include section3-mobile-style();
+        @include section3-desktop-style();
+    }
+
+    section.view5{
+        max-width: 1900px;
+        @include section5-mobile-style();
+        @include section5-desktop-style();
     }
 }
