@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* button{
+    padding: 12px 24px;
+    background-color: crimson;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 7px;
+    border: none;
+}
+button:active{
+    scale: 0.95;
+} */
+
+.card{
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 2rem 1.5rem;
+}
+
+.outer{
+    height: 20px;
+    width: 100%;
+    border-radius: 50px;
+    background-color: rgb(196, 192, 192);
+}
+
+.inner{
+    height: 100%;
+    width: 0%;
+    border-radius: 50px;
+    background-color: royalblue;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.bottom h2{
+    font-size: 50px;
+    font-family: monospace;
+    color: royalblue;
+    font-weight: 200;
+}
+
+.bottom button{
+    padding: 12px 24px;
+    background-color: royalblue;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:active{
+    scale: 0.95;
+}
+
+.card p{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: monospace;
+}
+
+p span{
+    color: royalblue;
+    font-weight: 600;
+}
